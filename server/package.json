@@ -1,0 +1,25 @@
+{
+  "name": "sontakaivoserver",
+  "version": "1.0.0",
+  "description": "backend for sontakaivoke",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sonta",
+    "kaivo"
+  ],
+  "author": "pesonen.heikki@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "ip": "^1.1.5",
+    "moment": "^2.19.3",
+    "pg": "^7.4.0",
+    "sequelize": "^4.27.0"
+  }
+}

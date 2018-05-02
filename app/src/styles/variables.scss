@@ -1,0 +1,8 @@
+$brand: (
+  primary: #ff5c29,
+  secodary: #f99a89,
+);
+
+@mixin brand($name, $prop) {
+  #{$prop}: map_get($brand, $name);
+}
